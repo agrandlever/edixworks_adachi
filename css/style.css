@@ -227,6 +227,8 @@ img {
   font-weight: 400;
   line-height: 1.45;
   letter-spacing: 0;
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 
 /* Works */
@@ -326,7 +328,7 @@ img {
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
-  background: url("../assets/about.jpg") center center / 322px 215px no-repeat;
+  background: url("../assets/about.jpg") left center / cover no-repeat;
 }
 
 .profile-text {
