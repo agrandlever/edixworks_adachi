@@ -1,0 +1,8 @@
+/* Generated image overrides */
+.hero {
+  background-image: url("../assets/hero-generated.svg");
+}
+
+.profile-photo {
+  background-image: url("../assets/about-generated.svg");
+}
