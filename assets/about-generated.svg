@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Generated profile illustration</title>
+  <desc id="desc">Friendly designer portrait illustration with blue background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff4ff"/>
+      <stop offset="1" stop-color="#0065a8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b74b8"/>
+      <stop offset="1" stop-color="#064a83"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="456" cy="112" r="82" fill="#ffffff" opacity="0.32"/>
+  <circle cx="122" cy="476" r="112" fill="#ffffff" opacity="0.16"/>
+  <path d="M0 452C98 412 190 420 282 459C402 510 500 512 600 448V600H0Z" fill="#004d86" opacity="0.28"/>
+  <g transform="translate(106 72)">
+    <path d="M74 492c14-121 83-187 193-187s179 66 193 187H74z" fill="url(#shirt)"/>
+    <path d="M156 350c42 44 130 44 172 0v-78H156z" fill="#f0b48f"/>
+    <path d="M146 162c-14 12-23 36-18 66 5 27 23 44 42 40V149z" fill="#d99674"/>
+    <path d="M336 149v119c20 4 38-13 43-40 5-30-4-54-18-66z" fill="#d99674"/>
+    <path d="M138 160c0-82 48-130 134-130s126 58 126 138c0 99-54 168-130 168s-130-69-130-176z" fill="#f4bf9c"/>
+    <path d="M121 167C131 75 188 18 279 18c79 0 126 46 139 115-39-8-79-31-102-60-40 50-110 82-195 94z" fill="#2d2d35"/>
+    <path d="M128 168c18-8 68-34 104-72 31 33 77 55 148 65 9 35 6 71-6 100 30-73 21-170-47-213-39-25-98-33-143-10-62 32-86 87-56 130z" fill="#1f2028"/>
+    <circle cx="211" cy="192" r="8" fill="#22252d"/>
+    <circle cx="314" cy="192" r="8" fill="#22252d"/>
+    <path d="M246 236c12 10 31 10 43 0" fill="none" stroke="#9a5f50" stroke-width="7" stroke-linecap="round"/>
+    <path d="M204 145c20-11 44-11 62 0" fill="none" stroke="#1f2028" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+    <path d="M292 145c20-11 44-11 62 0" fill="none" stroke="#1f2028" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+    <path d="M155 357c37 36 139 36 176 0 24 20 45 52 57 95H99c12-43 32-75 56-95z" fill="#ffffff" opacity="0.24"/>
+    <path d="M204 380l38 48 40-48" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  </g>
+</svg>
