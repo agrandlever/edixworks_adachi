@@ -153,6 +153,29 @@ img {
   line-height: 1;
 }
 
+/* Scroll reveal */
+.reveal-section {
+  opacity: 0;
+  transform: translateY(48px);
+  transition:
+    opacity 0.75s ease,
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 /* Service */
 .service-section {
   position: relative;
